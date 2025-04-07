@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="110" viewBox="0 0 130 110">
+  <!-- Left Sprinkler Head -->
+  <circle cx="35" cy="35" r="25" fill="#b99d66" />
+  <circle cx="35" cy="35" r="20" fill="#d8b87d" />
+
+  <path d="M35,15 L35,55" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M15,35 L55,35" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M20,20 L50,50" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M20,50 L50,20" stroke="#984a18" stroke-width="2" fill="none" />
+
+  <circle cx="35" cy="35" r="5" fill="#984a18" />
+
+  <!-- Right Sprinkler Head -->
+  <circle cx="95" cy="35" r="25" fill="#b99d66" />
+  <circle cx="95" cy="35" r="20" fill="#d8b87d" />
+
+  <path d="M95,15 L95,55" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M75,35 L115,35" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M80,20 L110,50" stroke="#984a18" stroke-width="2" fill="none" />
+  <path d="M80,50 L110,20" stroke="#984a18" stroke-width="2" fill="none" />
+
+  <circle cx="95" cy="35" r="5" fill="#984a18" />
+
+  <!-- Pipe Connection -->
+  <rect x="35" y="60" width="60" height="10" rx="5" ry="5" fill="#9a7f45" />
+  <rect x="40" y="70" width="50" height="10" rx="5" ry="5" fill="#9a7f45" />
+  <rect x="60" y="80" width="10" height="20" fill="#9a7f45" />
+  <circle cx="65" cy="100" r="5" fill="#9a7f45" />
+</svg>
