@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Kitchen Hood -->
+  <rect x="20" y="20" width="160" height="40" rx="5" ry="5" fill="#777" stroke="#333" stroke-width="2" />
+  <rect x="30" y="60" width="140" height="20" rx="0" ry="0" fill="#666" stroke="#333" stroke-width="2" />
+
+  <!-- Vent Pipes -->
+  <rect x="30" y="10" width="10" height="10" fill="#555" />
+  <rect x="160" y="10" width="10" height="10" fill="#555" />
+  <rect x="70" y="30" width="60" height="10" rx="2" ry="2" fill="#555" />
+
+  <!-- Control Panel -->
+  <rect x="30" y="80" width="30" height="40" rx="2" ry="2" fill="#333" stroke="#222" stroke-width="1" />
+  <circle cx="45" cy="90" r="5" fill="#0c0" />
+  <circle cx="45" cy="105" r="5" fill="#fc0" />
+  <text x="45" y="125" font-family="Arial, sans-serif" font-size="6" text-anchor="middle" fill="#fff">CONTROL</text>
+
+  <!-- Stove/Cooker -->
+  <rect x="30" y="140" width="140" height="10" fill="#333" />
+  <rect x="40" y="150" width="120" height="30" fill="#444" />
+
+  <!-- Burners -->
+  <circle cx="60" cy="165" r="12" fill="#333" stroke="#222" stroke-width="1" />
+  <circle cx="60" cy="165" r="8" fill="#b74139" />
+
+  <circle cx="100" cy="165" r="12" fill="#333" stroke="#222" stroke-width="1" />
+  <circle cx="100" cy="165" r="8" fill="#b74139" />
+
+  <circle cx="140" cy="165" r="12" fill="#333" stroke="#222" stroke-width="1" />
+  <circle cx="140" cy="165" r="8" fill="#b74139" />
+
+  <!-- Sprinkler Nozzles -->
+  <circle cx="60" cy="40" r="3" fill="#555" />
+  <circle cx="100" cy="40" r="3" fill="#555" />
+  <circle cx="140" cy="40" r="3" fill="#555" />
+</svg>

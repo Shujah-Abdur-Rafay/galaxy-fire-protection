@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations and effects */
+@layer utilities {
+  /* Hero section clip path */
+  .clip-hero-right {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 25% 0);
+  }
+
+  /* Slow pulse animation */
+  @keyframes pulse-slow {
+    0%, 100% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.05);
+    }
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 6s ease-in-out infinite;
+  }
+  
+  /* Fire flame animation */
+  @keyframes flame {
+    0%, 100% {
+      transform: scale(1) translateY(0);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.1) translateY(-10px);
+      opacity: 1;
+    }
+  }
+  
+  .animate-flame {
+    animation: flame 3s ease-in-out infinite;
+  }
+  
+  /* Counting animation for stats */
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-count-up {
+    animation: countUp 1s ease-out forwards;
+  }
+  
+  /* Reveal animations */
+  @keyframes reveal-right {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-reveal-right {
+    animation: reveal-right 0.8s ease-out forwards;
+  }
+  
+  @keyframes reveal-left {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-reveal-left {
+    animation: reveal-left 0.8s ease-out forwards;
+  }
+  
+  @keyframes reveal-up {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-reveal-up {
+    animation: reveal-up 0.8s ease-out forwards;
+  }
+}
+
+/* Apply custom scrollbar to entire page */
+html {
+  @apply scrollbar-custom;
+}
+
+/* Base document styles */
+body {
+  @apply text-slate-700 antialiased;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Card hover transitions */
+.card-hover-effect {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+}
+
+/* Custom focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-red-600 ring-offset-2;
+}
+
+/* Gradient text */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-amber-500;
+}
+
+/* Custom link styles */
+.link-underline {
+  @apply relative;
+}
+
+.link-underline:after {
+  @apply absolute w-0 h-0.5 bg-red-600 bottom-0 left-0 transition-all duration-300;
+  content: '';
+}
+
+.link-underline:hover:after {
+  @apply w-full;
+}
+
+/* Shadow effects */
+.shadow-blue {
+  box-shadow: 0 4px 14px 0 rgba(210, 39, 48, 0.2);
+}
+
+.shadow-hover {
+  @apply transition-shadow duration-300;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 25px -5px rgba(210, 39, 48, 0.1), 0 8px 10px -6px rgba(210, 39, 48, 0.1);
+}
+
+/* Custom button glow effect */
+.btn-glow {
+  @apply relative overflow-hidden;
+}
+
+.btn-glow::after {
+  @apply absolute inset-0 rounded-lg opacity-0 transition-opacity duration-300;
+  content: '';
+  background: radial-gradient(circle at center, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%);
+}
+
+.btn-glow:hover::after {
+  @apply opacity-100;
+}
+
+/* Glass effect for cards */
+.glass-effect {
+  @apply backdrop-blur-sm bg-white/80 shadow-lg;
+}
+
+/* Remove autofill background color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
+} 

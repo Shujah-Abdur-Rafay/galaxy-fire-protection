@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="140" viewBox="0 0 120 140">
+  <!-- Circle Border -->
+  <circle cx="60" cy="70" r="55" fill="#fff" stroke="#b74139" stroke-width="3" />
+
+  <!-- Fire Symbol -->
+  <path d="M60,25 C70,45 90,55 70,85 C50,70 30,85 50,110 C30,80 10,65 60,25" fill="#b74139" />
+
+  <!-- Text (CFAA) -->
+  <text x="60" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="12" text-anchor="middle" fill="#000">CANADIAN FIRE ALARM</text>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-weight="bold" font-size="12" text-anchor="middle" fill="#000">ASSOCIATION</text>
+
+  <!-- Member Since Text -->
+  <text x="60" y="140" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">MEMBER SINCE 2006</text>
+</svg>
