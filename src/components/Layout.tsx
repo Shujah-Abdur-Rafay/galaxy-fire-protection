@@ -46,7 +46,7 @@ export function Layout({ children }: LayoutProps) {
           <Link to="/" className="flex items-center gap-3 transition-transform hover:scale-105">
             <div className="relative overflow-hidden w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center p-0 shadow-md">
               <img 
-                src="/src/images/logo.png" 
+                src="/images/logo.png" 
                 alt="Galaxy Fire Protection Logo" 
                 className="w-full h-full object-cover"
               />
@@ -287,7 +287,7 @@ export function Layout({ children }: LayoutProps) {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white rounded-full overflow-hidden flex items-center justify-center p-0 shadow-md">
                   <img 
-                    src="/src/images/logo.png" 
+                    src="/images/logo.png" 
                     alt="Galaxy Fire Protection Logo" 
                     className="w-full h-full object-cover"
                   />
@@ -302,13 +302,13 @@ export function Layout({ children }: LayoutProps) {
               </p>
               <div className="flex items-center gap-6 pt-2">
                 <div className="h-12 w-auto rounded flex items-center justify-center bg-white/5 px-3 hover:bg-white/10 transition-colors">
-                  <img src="/src/images/CFAA.jpg" alt="CFAA Logo" className="h-9 w-9 object-contain" />
+                  <img src="/images/CFAA.jpg" alt="CFAA Logo" className="h-9 w-9 object-contain" />
                 </div>
                 <div className="h-12 w-auto rounded flex items-center justify-center bg-white/5 px-3 hover:bg-white/10 transition-colors">
-                  <img src="/src/images/NFPA.jpg" alt="NFPA Logo" className="h-9 w-9 object-contain" />
+                  <img src="/images/NFPA.jpg" alt="NFPA Logo" className="h-9 w-9 object-contain" />
                 </div>
                 <div className="h-12 w-auto rounded flex items-center justify-center bg-white/5 px-3 hover:bg-white/10 transition-colors">
-                  <img src="/src/images/ESA.jpg" alt="ESA Logo" className="h-9 w-9 object-contain" />
+                  <img src="/images/ESA.jpg" alt="ESA Logo" className="h-9 w-9 object-contain" />
                 </div>
               </div>
             </div>

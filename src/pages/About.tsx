@@ -243,16 +243,15 @@ export default function About() {
             <div className={`transition-all duration-1000 ease-out delay-300 flex justify-center items-center ${
               animateHero ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'
             }`}>
-              <div className="relative max-w-md mx-auto rounded-xl shadow-lg h-80 md:h-96">
-                <img 
-                  src="/src/images/profpeople.png" 
-                  alt="Galaxy Fire Protection Team" 
-                  className="w-full h-full object-cover rounded-xl"
-                  loading="eager"
-                />
-                {/* Decorative elements */}
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-red-100 -z-10 rounded-lg transform rotate-6"></div>
-                <div className="absolute -top-4 -left-4 w-32 h-32 bg-red-100 -z-10 rounded-lg transform -rotate-6"></div>
+              <div className="max-w-md mx-auto">
+                <div className="h-80 rounded-lg shadow-lg overflow-hidden mb-6">
+                  <img 
+                    src="/images/profpeople.png" 
+                    alt="Our Team" 
+                    className="w-full h-full object-cover object-center"
+                    loading="eager"
+                  />
+                </div>
               </div>
             </div>
             
@@ -326,41 +325,41 @@ export default function About() {
       {/* Certifications Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <SectionHeading>Our Certifications</SectionHeading>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              We're proud to be members of these professional organizations, demonstrating our commitment to high standards and quality service.
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-6">Our Certifications</h2>
+            <p className="text-slate-600 max-w-3xl mx-auto">
+              We are proud members of leading industry associations, ensuring we maintain the highest standards in fire protection services.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow card-hover-effect">
-              <div className="w-24 h-24 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-4">
-                <img src="/src/images/CFAA.jpg" alt="CFAA Logo" className="w-20 h-20 object-contain" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-6 shadow-md text-center hover:shadow-lg transition-all duration-300">
+              <div className="flex justify-center mb-6">
+                <img src="/images/CFAA.jpg" alt="CFAA Logo" className="w-20 h-20 object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">CFAA Member</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-3">Canadian Fire Alarm Association</h3>
               <p className="text-slate-600">
-                Member of the Canadian Fire Alarm Association since 2006.
+                A member of the CFAA, ensuring we meet industry standards for fire alarm installations and inspections.
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow card-hover-effect">
-              <div className="w-24 h-24 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-4">
-                <img src="/src/images/NFPA.jpg" alt="NFPA Logo" className="w-20 h-20 object-contain" />
+            <div className="bg-white rounded-xl p-6 shadow-md text-center hover:shadow-lg transition-all duration-300">
+              <div className="flex justify-center mb-6">
+                <img src="/images/NFPA.jpg" alt="NFPA Logo" className="w-20 h-20 object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">NFPA Member</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-3">National Fire Protection Association</h3>
               <p className="text-slate-600">
-                International Member of the National Fire Protection Association.
+                Following NFPA codes and standards, the leading fire safety guidelines in North America.
               </p>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-xl transition-shadow card-hover-effect">
-              <div className="w-24 h-24 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-4">
-                <img src="/src/images/ESA.jpg" alt="ESA Logo" className="w-20 h-20 object-contain" />
+            <div className="bg-white rounded-xl p-6 shadow-md text-center hover:shadow-lg transition-all duration-300">
+              <div className="flex justify-center mb-6">
+                <img src="/images/ESA.jpg" alt="ESA Logo" className="w-20 h-20 object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">ESA Licensed</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-3">Electrical Safety Authority</h3>
               <p className="text-slate-600">
-                Licensed Electrical Contractor with the Electrical Safety Authority.
+                ESA certified, ensuring all electrical aspects of fire protection systems meet safety standards.
               </p>
             </div>
           </div>

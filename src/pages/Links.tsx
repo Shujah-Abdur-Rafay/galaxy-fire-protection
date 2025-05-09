@@ -127,49 +127,49 @@ export default function Links() {
       title: "CFAA",
       description: "Canadian Fire Alarm Association",
       url: "http://www.cfaa.ca/",
-      icon: <img src="/src/images/CFAA.jpg" alt="CFAA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/CFAA.jpg" alt="CFAA Logo" className="w-10 h-10 object-contain" />,
       index: 0
     },
     {
       title: "NFPA",
       description: "National Fire Protection Association",
       url: "https://www.nfpa.org/",
-      icon: <img src="/src/images/NFPA.jpg" alt="NFPA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/NFPA.jpg" alt="NFPA Logo" className="w-10 h-10 object-contain" />,
       index: 1
     },
     {
       title: "ESA",
       description: "Electrical Safety Authority",
       url: "https://www.esasafe.com/",
-      icon: <img src="/src/images/ESA.jpg" alt="ESA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/ESA.jpg" alt="ESA Logo" className="w-10 h-10 object-contain" />,
       index: 2
     },
     {
       title: "GTAA",
       description: "Greater Toronto Apartment Association",
       url: "https://www.gtaaonline.com/",
-      icon: <img src="/src/images/GTAA.jpg" alt="GTAA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/GTAA.jpg" alt="GTAA Logo" className="w-10 h-10 object-contain" />,
       index: 3
     },
     {
       title: "ONPHA",
       description: "Ontario Non-Profit Housing Association",
       url: "https://www.onpha.on.ca/",
-      icon: <img src="/src/images/ONPHA.jpg" alt="ONPHA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/ONPHA.jpg" alt="ONPHA Logo" className="w-10 h-10 object-contain" />,
       index: 4
     },
     {
       title: "OCoT",
       description: "Ontario College of Trades",
       url: "https://www.collegeoftrades.ca/",
-      icon: <img src="/src/images/OCofT.jpg" alt="OCoT Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/OCofT.jpg" alt="OCoT Logo" className="w-10 h-10 object-contain" />,
       index: 5
     },
     {
       title: "TSSA",
       description: "Technical Standards and Safety Authority",
       url: "https://www.tssa.org/",
-      icon: <img src="/src/images/TSSA.png" alt="TSSA Logo" className="w-10 h-10 object-contain" />,
+      icon: <img src="/images/TSSA.png" alt="TSSA Logo" className="w-10 h-10 object-contain" />,
       index: 6
     }
   ];

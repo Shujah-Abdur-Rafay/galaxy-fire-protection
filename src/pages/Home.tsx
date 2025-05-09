@@ -217,7 +217,7 @@ export default function Home() {
             }`}>
               <div className="relative z-10 rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.01] transition-all duration-300 max-w-md mx-auto">
                 <img 
-                  src="/src/images/logo.png" 
+                  src="/images/logo.png" 
                   alt="Galaxy Fire Protection Logo" 
                   className="w-full h-auto bg-[#f5f3ee]"
                   loading="eager"
@@ -245,15 +245,15 @@ export default function Home() {
             
             <div className="flex flex-wrap justify-center items-center gap-10 md:gap-20">
               <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center bg-white rounded-full shadow-lg p-3 transition-transform hover:scale-105 duration-300">
-                <img src="/src/images/CFAA.jpg" alt="CFAA Logo" className="w-full h-full object-contain rounded-full" />
+                <img src="/images/CFAA.jpg" alt="CFAA Logo" className="w-full h-full object-contain rounded-full" />
               </div>
               <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center bg-white rounded-full shadow-lg p-3 transition-transform hover:scale-105 duration-300">
                 <div className="w-full h-full flex items-center justify-center bg-white">
-                  <img src="/src/images/NFPA.jpg" alt="NFPA Logo" className="w-4/5 h-4/5 object-contain" />
+                  <img src="/images/NFPA.jpg" alt="NFPA Logo" className="w-4/5 h-4/5 object-contain" />
                 </div>
               </div>
               <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center bg-white rounded-full shadow-lg p-3 transition-transform hover:scale-105 duration-300">
-                <img src="/src/images/ESA.jpg" alt="ESA Logo" className="w-full h-full object-contain rounded-full" />
+                <img src="/images/ESA.jpg" alt="ESA Logo" className="w-full h-full object-contain rounded-full" />
               </div>
             </div>
           </div>
@@ -275,37 +275,37 @@ export default function Home() {
               {
                 title: 'Fire Alarm Systems',
                 description: 'Installation, inspection, testing, maintenance and monitoring of fire alarm systems to ensure regulatory compliance.',
-                image: "/src/images/FireSafetyPanel.jpg",
+                image: "/images/FireSafetyPanel.jpg",
                 link: '/services',
               },
               {
                 title: 'Sprinkler Systems',
                 description: 'Design, installation, inspection, and maintenance of fire sprinkler systems for comprehensive fire protection.',
-                image: "/src/images/SprinklerHeads.jpg",
+                image: "/images/SprinklerHeads.jpg",
                 link: '/services',
               },
               {
                 title: 'Extinguisher Service',
                 description: 'Comprehensive fire extinguisher services including installation, inspection, maintenance, and recharging.',
-                image: "/src/images/FireExtinguisher.jpg",
+                image: "/images/FireExtinguisher.jpg",
                 link: '/services',
               },
               {
                 title: 'Emergency Lighting',
                 description: 'Installation and maintenance of emergency lighting systems to ensure safety during power outages.',
-                image: "/src/images/light.JPG",
+                image: "/images/light.JPG",
                 link: '/services',
               },
               {
                 title: 'Fire Safety Plans',
                 description: 'Development and implementation of comprehensive fire safety plans tailored to your specific needs.',
-                image: "/src/images/TSSA.png",
+                image: "/images/TSSA.png",
                 link: '/services',
               },
               {
                 title: 'Kitchen Hood Suppression',
                 description: 'Installation, inspection, and maintenance of kitchen hood suppression systems for commercial kitchens.',
-                image: "/src/images/KitchenHoodFireSystem.jpg",
+                image: "/images/KitchenHoodFireSystem.jpg",
                 link: '/services',
               },
             ].map((service, index) => (
@@ -319,23 +319,23 @@ export default function Home() {
                     src={service.image} 
                     alt={service.title} 
                     className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" 
-            />
-          </div>
+                  />
+                </div>
                 <div className="absolute top-0 left-0 w-full h-1 bg-transparent transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-slate-800 mb-3 group-hover:text-red-600 transition-colors">{service.title}</h3>
                   <p className="text-slate-600 mb-4">{service.description}</p>
-            <Link 
+                  <Link 
                     to={service.link} 
                     className="inline-flex items-center text-red-600 font-medium hover:text-red-700 transition-colors"
-            >
+                  >
                     Learn More
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 ml-1 group-hover:ml-2 transition-all">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-              </svg>
-            </Link>
-          </div>
-        </div>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
             ))}
           </div>
         </div>
@@ -354,12 +354,12 @@ export default function Home() {
             <StatItem value="100%" label="Satisfaction Rate" index={3} />
           </div>
           <div className="flex flex-wrap justify-center mt-12 gap-4">
-                  <Link 
-                    to="/contact" 
+            <Link 
+              to="/contact" 
               className="px-6 py-3 bg-red-600 text-white font-medium rounded-lg shadow-md hover:bg-red-700 hover:shadow-lg transition-all"
-                  >
-                    Contact Us
-                  </Link>
+            >
+              Contact Us
+            </Link>
             <Link 
               to="/about" 
               className="px-6 py-3 bg-white text-red-600 border border-red-600 font-medium rounded-lg hover:bg-red-50 transition-all flex items-center"
@@ -367,7 +367,7 @@ export default function Home() {
               <span>Learn More</span>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>
+              </svg>
             </Link>
           </div>
         </div>

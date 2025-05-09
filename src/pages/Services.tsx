@@ -220,7 +220,7 @@ export default function Services() {
         </>
       ),
       icon: (
-        <img src="/src/images/FireExtinguisher.jpg" alt="Fire Extinguisher" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/images/FireExtinguisher.jpg" alt="Fire Extinguisher" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       )
     },
     {
@@ -243,7 +243,7 @@ export default function Services() {
         </>
       ),
       icon: (
-        <img src="/src/images/light.JPG" alt="Emergency Lighting" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/images/light.JPG" alt="Emergency Lighting" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       )
     },
     {
@@ -267,7 +267,7 @@ export default function Services() {
         </>
       ),
       icon: (
-        <img src="/src/images/FireSafetyPanel.jpg" alt="Fire Alarm Panel" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/images/FireSafetyPanel.jpg" alt="Fire Alarm Panel" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       )
     },
     {
@@ -291,7 +291,7 @@ export default function Services() {
         </>
       ),
       icon: (
-        <img src="/src/images/building.png" alt="Sprinkler Heads" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/images/building.png" alt="Sprinkler Heads" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       )
     },
     {
@@ -315,7 +315,7 @@ export default function Services() {
         </>
       ),
       icon: (
-        <img src="/src/images/KitchenHoodFireSystem.jpg" alt="Kitchen Hood Suppression" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src="/images/KitchenHoodFireSystem.jpg" alt="Kitchen Hood Suppression" className="max-h-40 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
       )
     },
     {
@@ -372,7 +372,7 @@ export default function Services() {
               <div>
                 <div className="max-w-md mx-auto h-72 md:h-80 rounded-lg shadow-lg overflow-hidden">
                   <img 
-                    src="/src/images/building.png" 
+                    src="/images/building.png" 
                     alt="Fire Safety Services" 
                     className="w-full h-full object-cover"
                     loading="eager"
