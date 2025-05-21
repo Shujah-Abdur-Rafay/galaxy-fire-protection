@@ -193,11 +193,11 @@ export default function Home() {
                   </svg>
                   Mon-Fri: 8am-5pm
                 </span>
-                <a href="mailto:service@galaxyfireprotection.com" className="flex items-center gap-1 mt-1 hover:text-red-600 transition-colors">
+                <a href="mailto:admin@galaxyfireprotection.com" className="flex items-center gap-1 mt-1 hover:text-red-600 transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                   </svg>
-                  service@galaxyfireprotection.com
+                  admin@galaxyfireprotection.com
                 </a>
               </div>
               {/* Emergency banner */}
@@ -299,7 +299,7 @@ export default function Home() {
               {
                 title: 'Fire Safety Plans',
                 description: 'Development and implementation of comprehensive fire safety plans tailored to your specific needs.',
-                image: "/images/TSSA.png",
+                image: "/images/fire-safety-plans.jpeg",
                 link: '/services',
               },
               {
@@ -348,8 +348,8 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <StatItem value="1000+" label="Satisfied Clients" index={0} />
-            <StatItem value="15+" label="Years Experience" index={1} />
+            <StatItem value="2000+" label="Satisfied Clients" index={0} />
+            <StatItem value="20+" label="Years Experience" index={1} />
             <StatItem value="24/7" label="Emergency Service" index={2} />
             <StatItem value="100%" label="Satisfaction Rate" index={3} />
           </div>

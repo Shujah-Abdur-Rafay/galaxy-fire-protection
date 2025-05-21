@@ -47,8 +47,8 @@ export function Contact() {
 
         <div className="bg-white shadow-md rounded-lg p-6 text-center mb-8">
           <p className="mb-2">
-            <a href="mailto:service@galaxyfireprotection.com" className="text-blue-600 hover:underline">
-              service@galaxyfireprotection.com
+            <a href="mailto:admin@galaxyfireprotection.com" className="text-blue-600 hover:underline">
+              admin@galaxyfireprotection.com
             </a>
           </p>
           <p className="font-bold">

@@ -57,12 +57,12 @@ const FAQItem = ({ question, answer, index }: FAQItemProps) => {
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       <button 
-        className="w-full px-6 py-4 text-left bg-white flex justify-between items-center hover:bg-gray-50 transition-colors"
+        className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left bg-white flex justify-between items-center hover:bg-gray-50 transition-colors"
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
       >
-        <span className="font-semibold text-slate-800 text-lg">{question}</span>
-        <div className="w-8 h-8 rounded-full flex items-center justify-center bg-gray-100 group-hover:bg-red-100 transition-colors">
+        <span className="font-semibold text-slate-800 text-base sm:text-lg pr-2">{question}</span>
+        <div className="w-8 h-8 rounded-full flex-shrink-0 flex items-center justify-center bg-gray-100 group-hover:bg-red-100 transition-colors">
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
@@ -76,11 +76,11 @@ const FAQItem = ({ question, answer, index }: FAQItemProps) => {
         </div>
       </button>
       <div 
-        className={`bg-white px-6 overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-96 py-4' : 'max-h-0 py-0'
+        className={`bg-white px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out ${
+          isOpen ? 'max-h-[500px] py-3 sm:py-4' : 'max-h-0 py-0'
         }`}
       >
-        <div className="text-slate-600">{answer}</div>
+        <div className="text-slate-600 text-sm sm:text-base max-h-[300px] overflow-y-auto pr-2">{answer}</div>
       </div>
     </div>
   );

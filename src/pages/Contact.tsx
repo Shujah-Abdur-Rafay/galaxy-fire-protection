@@ -384,8 +384,8 @@ export default function Contact() {
                       title="Our Location"
                       delay={100}
                     >
-                      <p>1315 Lawrence Avenue East, Suite 305</p>
-                      <p>Toronto, Ontario, Canada M3A 3R3</p>
+                      <p>1468 Victoria Park Ave. Suite 110</p>
+                      <p>Toronto, ON, M9A 2M2</p>
                     </ContactInfo>
                     
                     <ContactInfo 
@@ -405,7 +405,7 @@ export default function Contact() {
                           <div>
                             <p className="font-medium text-slate-800">Tel: 416.230.7848</p>
                             <p className="font-medium text-slate-800">Fax: 416.927.7230</p>
-                            <p className="font-medium text-slate-800">24/7 Emergency: 416.237.4481</p>
+                            <p className="font-medium text-slate-800">24/7 Emergency: 416.715.3026</p>
                           </div>
                         </div>
                         <div className="flex items-start gap-3">
@@ -413,11 +413,6 @@ export default function Contact() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                           </svg>
                           <div>
-                            <p>
-                              <a href="mailto:service@galaxyfireprotection.com" className="hover:text-red-600 transition-colors">
-                                service@galaxyfireprotection.com
-                              </a>
-                            </p>
                             <p>
                               <a href="mailto:admin@galaxyfireprotection.com" className="hover:text-red-600 transition-colors">
                                 admin@galaxyfireprotection.com
@@ -459,7 +454,7 @@ export default function Contact() {
               >
                 <div className="rounded-lg overflow-hidden shadow-md h-full">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.365090375374!2d-79.31224482453074!3d43.75456207101369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd8f7bb98633%3A0x69f2e19d5384447c!2s1315%20Lawrence%20Ave%20E%20Suite%20305%2C%20North%20York%2C%20ON%20M3A%203R3%2C%20Canada!5e0!3m2!1sen!2sus!4v1658859941521!5m2!1sen!2sus" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.5958985725183!2d-79.31899768872532!3d43.74977984751128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4ce9328c5e1ed%3A0xcd1b2a3f75b0db27!2s1468%20Victoria%20Park%20Ave%20%23110%2C%20North%20York%2C%20ON%20M4A%202M2!5e0!3m2!1sen!2sca!4v1705007507262!5m2!1sen!2sca" 
                     width="100%" 
                     height="100%" 
                     style={{ border: 0, minHeight: "400px" }} 
@@ -484,7 +479,7 @@ export default function Contact() {
               Our 24/7 emergency service team is always ready to respond. Don't wait - call us now!
             </p>
             <a 
-              href="tel:+14164977003" 
+              href="tel:4167153026" 
               className="px-8 py-3 bg-white text-red-600 font-medium rounded-lg transition-all duration-300 hover:bg-gray-100 hover:shadow-lg inline-flex items-center gap-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">

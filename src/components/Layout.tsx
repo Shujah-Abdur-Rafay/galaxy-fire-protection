@@ -324,7 +324,7 @@ export function Layout({ children }: LayoutProps) {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                     </svg>
                   </div>
-                  <span>Toronto, Ontario</span>
+                  <span>1468 Victoria Park Ave. Suite 110, Toronto, ON, M9A 2M2</span>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
                   <div className="w-8 h-8 rounded-full bg-red-600/10 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-red-600/20 transition-colors">
@@ -340,8 +340,8 @@ export function Layout({ children }: LayoutProps) {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                     </svg>
                   </div>
-                  <a href="mailto:service@galaxyfireprotection.com" className="hover:text-white break-words">
-                    service@galaxyfireprotection.com
+                  <a href="mailto:admin@galaxyfireprotection.com" className="hover:text-white break-words">
+                    admin@galaxyfireprotection.com
                   </a>
                 </li>
                 <li className="flex items-start gap-3 group hover:translate-x-1 transition-transform">
