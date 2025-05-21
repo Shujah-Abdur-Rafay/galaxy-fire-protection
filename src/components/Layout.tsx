@@ -243,17 +243,17 @@ export function Layout({ children }: LayoutProps) {
           <span className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white to-transparent opacity-30"></span>
           
           <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center relative z-10">
-            <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center animate-pulse">
+            <div className="flex items-center gap-2 text-center md:text-left">
+              <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center animate-pulse hidden sm:flex">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                 </svg>
               </div>
-              <span className="font-medium">EMERGENCY NUMBER - 24 Hours a Day - 7 Days a Week</span>
+              <span className="font-medium text-sm sm:text-base">EMERGENCY NUMBER - 24 Hours a Day - 7 Days a Week</span>
             </div>
             <a 
               href="tel:4167153026" 
-              className="flex items-center gap-2 hover:underline font-bold group"
+              className="flex items-center justify-center gap-2 hover:underline font-bold group mt-2 md:mt-0 text-lg"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4 group-hover:animate-pulse">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
@@ -386,11 +386,6 @@ export function Layout({ children }: LayoutProps) {
               <p className="text-gray-400 text-sm">
                 Copyright © {new Date().getFullYear()} Galaxy Fire Protection. All rights reserved.
               </p>
-              <div className="flex items-center gap-6 text-sm text-gray-500">
-                <a href="#privacy" className="hover:text-white transition-colors">Privacy Policy</a>
-                <div className="h-3 w-px bg-gray-700"></div>
-                <a href="#terms" className="hover:text-white transition-colors">Terms of Service</a>
-              </div>
             </div>
           </div>
         </div>
